@@ -1,0 +1,4 @@
+1	password	LCJ	1005	0	1
+2	password	VBS	1006	10000	10
+3	password	KHW	9999	10000	1
+4	password	KJH	9979	1000	2

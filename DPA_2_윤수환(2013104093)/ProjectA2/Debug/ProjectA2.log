@@ -1,0 +1,24 @@
+﻿Build started 2016-04-29 오전 10:05:17.
+     1>Project "C:\Users\callab\Desktop\ProjectA2\ProjectA2.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\ProjectA2.unsuccessfulbuild".
+       ClCompile:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt App.cpp User.cpp
+         User.cpp
+         App.cpp
+         Generating Code...
+       Link:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\callab\Desktop\Debug\ProjectA2.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\ProjectA2.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\callab\Desktop\Debug\ProjectA2.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\callab\Desktop\Debug\ProjectA2.lib" /MACHINE:X86 Debug\App.obj
+         Debug\Mail.obj
+         Debug\MailCenter.obj
+         Debug\mailDeilivery.obj
+         Debug\main.obj
+         Debug\User.obj
+     1>App.obj : error LNK2019: unresolved external symbol "public: __thiscall MailCenter::MailCenter(void)" (??0MailCenter@@QAE@XZ) referenced in function "public: __thiscall App::App(void)" (??0App@@QAE@XZ)
+     1>App.obj : error LNK2019: unresolved external symbol "public: __thiscall MailCenter::~MailCenter(void)" (??1MailCenter@@QAE@XZ) referenced in function "public: __thiscall App::App(void)" (??0App@@QAE@XZ)
+     1>C:\Users\callab\Desktop\Debug\ProjectA2.exe : fatal error LNK1120: 2 unresolved externals
+     1>Done Building Project "C:\Users\callab\Desktop\ProjectA2\ProjectA2.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.24
